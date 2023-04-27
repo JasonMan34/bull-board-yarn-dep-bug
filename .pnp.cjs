@@ -180,6 +180,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["a", "workspace:packages/a"],\
             ["@bull-board/api", "npm:5.1.1"],\
             ["@bull-board/express", "npm:5.1.1"],\
+            ["@bull-board/ui", "npm:5.1.1"],\
             ["bull", "npm:4.10.4"]\
           ],\
           "linkType": "SOFT"\
