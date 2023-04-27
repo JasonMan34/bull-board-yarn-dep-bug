@@ -1,0 +1,12 @@
+{
+  "name": "bull-board-issue-repro",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@bull-board/api": "^5.1.1",
+    "@bull-board/express": "^5.1.1",
+    "bull": "^4.10.4"
+  }
+}
