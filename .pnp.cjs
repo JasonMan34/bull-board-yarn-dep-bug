@@ -12,14 +12,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "bull-board-issue-repro",\
+        "name": "root-workspace-0b6124",\
         "reference": "workspace:."\
+      },\
+      {\
+        "name": "a",\
+        "reference": "workspace:packages/a"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["bull-board-issue-repro", ["workspace:."]]\
+      ["a", ["workspace:packages/a"]],\
+      ["root-workspace-0b6124", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -28,9 +33,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@bull-board/api", "npm:5.1.1"],\
-            ["@bull-board/express", "npm:5.1.1"],\
-            ["bull", "npm:4.10.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -169,6 +171,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tootallnate/once", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["a", [\
+        ["workspace:packages/a", {\
+          "packageLocation": "./packages/a/",\
+          "packageDependencies": [\
+            ["a", "workspace:packages/a"],\
+            ["@bull-board/api", "npm:5.1.1"],\
+            ["@bull-board/express", "npm:5.1.1"],\
+            ["bull", "npm:4.10.4"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["abbrev", [\
@@ -343,18 +357,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["uuid", "npm:8.3.2"]\
           ],\
           "linkType": "HARD"\
-        }]\
-      ]],\
-      ["bull-board-issue-repro", [\
-        ["workspace:.", {\
-          "packageLocation": "./",\
-          "packageDependencies": [\
-            ["bull-board-issue-repro", "workspace:."],\
-            ["@bull-board/api", "npm:5.1.1"],\
-            ["@bull-board/express", "npm:5.1.1"],\
-            ["bull", "npm:4.10.4"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["bytes", [\
@@ -1623,6 +1625,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["glob", "npm:7.2.3"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["root-workspace-0b6124", [\
+        ["workspace:.", {\
+          "packageLocation": "./",\
+          "packageDependencies": [\
+            ["root-workspace-0b6124", "workspace:."]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["safe-buffer", [\

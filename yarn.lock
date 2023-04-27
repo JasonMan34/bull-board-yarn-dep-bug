@@ -118,6 +118,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"a@workspace:packages/a":
+  version: 0.0.0-use.local
+  resolution: "a@workspace:packages/a"
+  dependencies:
+    "@bull-board/api": ^5.1.1
+    "@bull-board/express": ^5.1.1
+    bull: ^4.10.4
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -255,16 +265,6 @@ __metadata:
   checksum: a61e7cd2e8a8505e9f0036b3b6108ba5e926b4b55089eeb5550cd04a471fe216c96d4fe7e4c7f995c728c554ae20ddfc4244cad10aef255e72b62930afd233d1
   languageName: node
   linkType: hard
-
-"bull-board-issue-repro@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "bull-board-issue-repro@workspace:."
-  dependencies:
-    "@bull-board/api": ^5.1.1
-    "@bull-board/express": ^5.1.1
-    bull: ^4.10.4
-  languageName: unknown
-  linkType: soft
 
 "bull@npm:^4.10.4":
   version: 4.10.4
@@ -1388,6 +1388,12 @@ __metadata:
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
   languageName: node
   linkType: hard
+
+"root-workspace-0b6124@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root-workspace-0b6124@workspace:."
+  languageName: unknown
+  linkType: soft
 
 "safe-buffer@npm:5.2.1, safe-buffer@npm:~5.2.0":
   version: 5.2.1
